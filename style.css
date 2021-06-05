@@ -1,0 +1,148 @@
+.height {
+  margin-top: 30px;
+  border: 2px dotted black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  width: 600px;
+  align-content: center;
+  align-items: center;
+}
+
+.height nav a {
+  border: 1px solid blue;
+  background: red;
+  text-decoration: none;
+  margin-left: -5px;
+  display: inline-block;
+}
+
+.height_2 {
+  margin-top: 30px;
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+  height: 500px;
+  align-content: flex-end;
+  align-items: flex-end;
+}
+
+.height_2 nav {
+  margin-right: -14px;
+}
+
+.height_2 nav a {
+  border: 1px solid black;
+  background: red;
+  text-decoration: none;
+  margin-left: -5px;
+  display: inline-block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.height_3 {
+  margin-top: 30px;
+  border: 1px solid black;
+  width: 350px;
+  display: flex;
+  justify-content: flex-start;
+  height: 400px;
+}
+
+.height_3 nav {
+  margin-left: -9px;
+}
+
+.height_3 nav a {
+  border: 1px solid black;
+  background: red;
+  text-decoration: none;
+  margin-left: -5px;
+  display: inline-block;
+}
+
+.height_4 {
+  margin-top: 30px;
+  border: 2px dotted black;
+  width: 600px;
+  height: 400px;
+}
+
+.height_4 ul {
+  margin-left: -49px;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  margin-right: -14px;
+}
+
+.height_4 ul li {
+  display: block;
+  flex-grow: 1;
+}
+
+.height_4 ul li a {
+  border: 1px solid blue;
+  background: #cc9226;
+  text-decoration: none;
+  display: block;
+  align-self: flex-start;
+}
+
+.height_5 {
+  margin-top: 30px;
+  border: 2px dotted black;
+  width: 600px;
+  height: 400px;
+  display: flex;
+}
+
+.height_5 .dash {
+  flex-grow: 1;
+  margin-left: -13px;
+  margin-right: -13px;
+}
+
+.height_5 .dash .item1 {
+  border: 1px solid blue;
+  background: #cc9226;
+  text-decoration: none;
+  display: block;
+  align-self: flex-start;
+  height: 30px;
+}
+
+.height_5 .dash_3 {
+  align-self: flex-end;
+}
+
+.height_5 .dash_4 {
+  align-self: center;
+}
+
+.height_6 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.height_6 .dash {
+  margin-top: 30px;
+  border: 2px dotted black;
+  height: 400px;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: auto;
+}
+
+.height_6 .dash .item1 {
+  border: 1px solid blue;
+  background: #cc9226;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
